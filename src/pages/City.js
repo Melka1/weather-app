@@ -6,7 +6,6 @@ import {
   ImageBackground,
   StatusBar,
 } from "react-native";
-import { Feather } from "@expo/vector-icons";
 import React from "react";
 import IconText from "../components/IconText";
 import moment from "moment";
