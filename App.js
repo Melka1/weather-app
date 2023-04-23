@@ -7,9 +7,9 @@ import ErrorItem from "./src/components/ErrorItem";
 
 const App = () => {
   const [loading, error, weather] = useGetWeather()
+  console.log(loading, error, weather)
 
   if(weather&&weather.list){
-    console.log(loading, error, weather)
     return (
       <NavigationContainer>
         <Tabs weather={weather}/>
